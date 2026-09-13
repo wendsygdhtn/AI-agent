@@ -1,5 +1,5 @@
 任务1
-我用了claude code(连glm 5.1),安装配置过程是我先在powershell输入命令安装claude code，然后在官网下载cc-switch，在智谱官网注册后新建API key，让claude code连接上glm 5.1，然后就可以使用了。
+我用了claude code(连glm 5.1),安装配置过程是我先在powershell输入命令安装claude code，然后在官网下载cc-switch，在智谱官网注册后新建API key，让claude code连接上glm 5.1，充值，然后就可以使用了。
 
 我先让cc阅读我之前的git 仓库，它的回答大致如下：
 README.md 内容要点
@@ -15,4 +15,4 @@ README.md 内容要点
   7. 撤销修改 — git restore / git restore --staged  
   8. 同步到 GitHub — git remote add origin + git push -u origin main  
 
-然后我让它修改本文件所在仓库中的readme，删除"qwerty",
+然后我让它修改本文件所在仓库中的readme，删除末尾的"assist",并上传到远端，AI找到了本地文件并删除，然后上传到远端，完成了任务。我在git log中看到了修改记录： Remove assist from end of README.md，最终结果符号我的预期，就是速度比我预想的慢了一点。
